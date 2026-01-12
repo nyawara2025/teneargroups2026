@@ -1,6 +1,6 @@
 // n8n Webhook Configuration
 // Your n8n webhook URL for the TeNEAR Space chatbot
-const N8N_WEBHOOK_URL = 'https://n8n.tenear.com/webhook/tenear-chat';
+const N8N_WEBHOOK_URL = 'https://n8n.tenear.com/webhook/nhc-chat';
 
 const TIMEOUT_MS = 60000; // 60 second timeout
 

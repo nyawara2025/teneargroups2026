@@ -8,7 +8,7 @@ export default function Chat() {
     {
       id: 1,
       type: 'bot',
-      text: "Hello! I'm your TeNEAR Space assistant. How can I help you today?",
+      text: "Hello! I'm your NHC Court Langata assistant. How can I help you today?",
       time: new Date(),
     },
   ])

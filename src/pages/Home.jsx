@@ -5,21 +5,21 @@ import Header from '../components/Header'
 
 export default function Home() {
   const [notifications] = useState([
-    { id: 1, title: 'User Metrics', time: '2 hours ago', icon: '📅', read: false },
-    { id: 2, title: 'Stock levels', time: '1 day ago', icon: '👨‍🏫', read: false },
-    { id: 3, title: 'Revenue Update', time: '2 days ago', icon: '💰', read: true },
+    { id: 1, title: 'Vacant Houses', time: '2 hours ago', icon: '📅', read: false },
+    { id: 2, title: 'Up-Coming Events', time: '1 day ago', icon: '👨‍🏫', read: false },
+    { id: 3, title: 'Committee Briefs', time: '2 days ago', icon: '💰', read: true },
   ])
 
   return (
     <Layout showBack={false}>
-      <Header title="TeNEAR Space" showBack={false} />
+      <Header title="NHC Court Langata" showBack={false} />
       <div className="home-container">
         <section className="welcome-section">
           <div className="welcome-card">
             <div className="welcome-icon">🏫</div>
             <div className="welcome-content">
               <h1>Welcome Back!</h1>
-              <p>Access beyond limits!</p>
+              <p>Feels like home!</p>
             </div>
           </div>
         </section>
@@ -27,10 +27,10 @@ export default function Home() {
         <section className="quick-actions-section">
           <h2 className="section-title">Quick Actions</h2>
           <div className="actions-grid">
-            <QuickActionButton icon="💬" label="Chat with your Investment" color="#22c55e" />
-            <QuickActionButton icon="📊" label="View Metrics" color="#3B82F6" />
-            <QuickActionButton icon="📅" label="Available Products" color="#F59E0B" />
-            <QuickActionButton icon="💰" label="Today's Revenue" color="#EF4444" />
+            <QuickActionButton icon="💬" label="NHC AI Chat" color="#22c55e" />
+            <QuickActionButton icon="📊" label="Notices" color="#3B82F6" />
+            <QuickActionButton icon="📅" label="Up-coming events" color="#F59E0B" />
+            <QuickActionButton icon="💰" label="Today's Highlights" color="#EF4444" />
           </div>
         </section>
 
